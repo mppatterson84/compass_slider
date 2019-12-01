@@ -1,0 +1,55 @@
+html,
+body{
+    background-color: lightcoral;
+}
+section.center-slide{
+    background-color: lightblue;
+    z-index: 1;
+}
+section.slide{
+    background-color: lightgreen;
+    z-index: -1;
+}
+section.slide-grid{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
+}
+section div.up{
+    grid-column: 2;
+    grid-row: 1;
+}
+section div.right{
+    grid-column: 3;
+    grid-row: 2;
+}
+section div.down{
+    grid-column: 2;
+    grid-row: 3;
+}
+section div.left{
+    grid-column: 1;
+    grid-row: 2;
+}
+section div{
+    margin: auto;
+}
+section h3{
+    grid-column: 2;
+    grid-row: 2;
+    text-align: center;
+    margin: auto;
+}
+.fas.fa-angle-up,
+.fas.fa-angle-right,
+.fas.fa-angle-down,
+.fas.fa-angle-left{
+    font-size: 2em;
+}
+.btn.btn-compass{
+    width: 48px;
+    height: 48px;
+}
