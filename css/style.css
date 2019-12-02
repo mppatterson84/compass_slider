@@ -21,21 +21,22 @@ section.slide-grid{
 section div.up{
     grid-column: 2;
     grid-row: 1;
+    margin: auto auto 0 auto;
 }
 section div.right{
     grid-column: 3;
     grid-row: 2;
+    margin: auto auto auto 0;
 }
 section div.down{
     grid-column: 2;
     grid-row: 3;
+    margin: 0 auto auto auto;
 }
 section div.left{
     grid-column: 1;
     grid-row: 2;
-}
-section div{
-    margin: auto;
+    margin: auto 0 auto auto;
 }
 section h3{
     grid-column: 2;
