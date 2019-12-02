@@ -11,7 +11,7 @@ section.slide{
     z-index: -1;
 }
 section.slide-grid{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     position: fixed;
     display: grid;
