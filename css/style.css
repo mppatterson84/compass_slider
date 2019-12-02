@@ -15,8 +15,8 @@ section.slide-grid{
     width: 100%;
     position: fixed;
     display: grid;
-    grid-template-columns: 1fr 5fr 1fr;
-    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 4fr 1fr;
 }
 section div.up{
     grid-column: 2;
